@@ -7,6 +7,7 @@ feature_cols = ['temp']
 X = bikes[feature_cols]
 y = bikes['count']
 
+exit()
 x_train, x_test, y_train, y_test = train_test_split(X, y)
 linreg = LinearRegression().fit(x_train, y_train)
 
